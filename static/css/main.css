@@ -1,4 +1,21 @@
 body{
 	min-height: 2000px;
 	padding-top: 70px;
+	background-color: #3498db;
+}
+.center-div-30{
+	margin: 0 auto;
+	width: 30%;
+	height: 100%;
+}
+.center-div-50{
+	margin: 0 auto;
+	width: 75%;
+	height: 100%;
+}
+.right{
+	float: right;
+}
+.left{
+	float: left;
 }
