@@ -1,3 +1,3 @@
-RewriteEngine on 
-RewriteCond $1 !^(index.php|css|js|images|robots.txt) 
-RewriteRule ^(.*)$ /login_system/index.php/$1 [L]
+RewriteEngine on
+RewriteCond $1 !^(index\.php|robots\.txt|sitemap\.xml|static)
+RewriteRule ^(.*)$ index.php/$1[L]
