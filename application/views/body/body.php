@@ -1,15 +1,15 @@
  
 <body>
   <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <div class="center-div-30 right">
-            <img src="<?=base_url();?>static/img/icons/svg/paper-bag.svg" alt="paper-bag-icon">
-            <p style="color: white;">Bienvenido al <b>Loginsystem APP</b></p>
+    <div class="row" style="margin-top: 25%;">
+      <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12 col-lg-offset-3 col-md-offset-2 col-sm-offset-2">
+          <div >
+            <img style="display:block;margin:0 auto 0 auto;" src="<?=base_url();?>static/img/icons/svg/paper-bag.svg" alt="paper-bag-icon" style="margin: 0 auto;">
+            <p style="color: white; text-align: center;">Bienvenido al <b>Loginsystem APP</b></p>
           </div>
       </div>
-      <div class="col-lg-8 col-md-8 col-sm-8 col-xs12">
-          <div class="login-form center-div-50 left">
+      <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+          <div class="login-form">
             <div class="form-group">
               <input class="form-control login-field" value="" placeholder="Correo electronico" id="login-name" type="text">
               <label class="login-field-icon fui-user" for="login-name"></label>
