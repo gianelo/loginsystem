@@ -4414,6 +4414,7 @@ select[multiple].navbar-form .select2-search input[type="text"] {
 .active .navbar-new {
   background-color: #ffffff;
   display: none;
+
 }
 .navbar-new {
   background-color: #e74c3c;

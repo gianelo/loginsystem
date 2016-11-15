@@ -2,7 +2,7 @@
 
 if (!defined('BASEPATH')) exit('No direct script access allowed') ;
 
-class  Login extends CI_Controller
+class Home extends CI_Controller
 {
     public function  __construct()
     {
@@ -12,7 +12,8 @@ class  Login extends CI_Controller
     public function index()
     {
         $this->load->view('header/header');
-        $this->load->view('body/body');
+        $this->load->view('body/navbar');
+        $this->load->view('body/users_view');
         $this->load->view('footer/footer');
 
     }

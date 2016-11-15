@@ -4,8 +4,9 @@
     <div class="row" style="margin-top: 25%;">
       <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12 col-lg-offset-3 col-md-offset-2 col-sm-offset-2">
           <div >
+            <h6 style="color: white; text-align: center;">Bienvenido</h6>
             <img style="display:block;margin:0 auto 0 auto;" src="<?=base_url();?>static/img/icons/svg/paper-bag.svg" alt="paper-bag-icon" style="margin: 0 auto;">
-            <p style="color: white; text-align: center;">Bienvenido al <b>Loginsystem APP</b></p>
+            <p style="color: white; text-align: center;"><b>Loginsystem APP</b></p>
           </div>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
@@ -20,7 +21,7 @@
               <label class="login-field-icon fui-lock" for="login-pass"></label>
             </div>
 
-            <a style="background-color: #3498db;" class="btn btn-primary btn-lg btn-block btn-hover" href="#">Log in</a>
+            <a style="background-color: #3498db;" class="btn btn-primary btn-lg btn-block btn-hover" href="<?=base_url();?>home">Log in</a>
           </div>
       </div>
     </div>

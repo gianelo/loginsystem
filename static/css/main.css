@@ -17,3 +17,9 @@ body{
 .left{
 	float: left;
 }
+
+.form-group.focus .form-control,.form-control:focus,.form-group.focus .select2-search input[type=text],.select2-search input[type=text]:focus {
+	border-color:#3498db;
+	outline:0;
+	box-shadow:none
+}
