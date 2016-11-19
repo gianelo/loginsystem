@@ -64,7 +64,7 @@
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">User Logged<b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li><a href="#">Information</a></li>
-							<li class="divider"></li>
+							<li class="divider"> </li>
 							<li><a href="<?=base_url();?>login">Log Out</a></li>              
 						</ul>
 					</li>
