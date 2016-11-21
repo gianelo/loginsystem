@@ -13,9 +13,16 @@ class Users extends CI_Controller
     {
         $this->load->view('header/header');
         $this->load->view('body/navbar');
-        $this->load->view('body/users_view');
+        $this->load->view('body/user/user_main');
         $this->load->view('footer/footer');
 
+    }
+
+    public function add_user(){
+        $this->load->view('header/header');
+        $this->load->view('body/navbar');
+        $this->load->view('body/user/user_add');
+        $this->load->view('footer/footer');
     }
 }
 

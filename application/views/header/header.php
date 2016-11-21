@@ -13,3 +13,4 @@
     <!--Loading Main styles-->
     <link rel="stylesheet" type="text/css" href="<?=base_url();?>static/css/main.css"/>
 </head>
+<body>
