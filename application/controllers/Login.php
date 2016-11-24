@@ -12,7 +12,7 @@ class  Login extends CI_Controller
     public function index()
     {
         $this->load->view('header/header');
-        $this->load->view('body/body');
+        $this->load->view('body/sign_view');
         $this->load->view('footer/footer');
 
     }
